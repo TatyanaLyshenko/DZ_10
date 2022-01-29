@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    
+    
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+
+}
+.header_logo{
+    width: 90px;
+    height: 50px; 
+    margin: 20px 0; 
+}
+
+header .container{
+    position: relative;
+}
+
+.menu{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.menu a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    margin: 10px;
+}
+
+section{
+    margin-bottom: 50px;
+}
+section:last-child{
+    margin-bottom: 0px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+main{
+    margin-top: 100px;
+}
+.first_title, .second_title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.second_title{
+    margin-top: 100px;
+}
+.first_content{
+    display: inline-block;
+    max-width: 450px;
+}
+.first_video{
+    display: inline-block;
+    max-width: 500px;
+}
+
+.form_submit{
+    background-color: yellow;
+    text-transform: uppercase;
+    margin: 20px;
+    border: none;
+}
+.first_lg{
+    margin-top: 100px;
+}
+.lg{
+    width: 90px;
+    height: 50px; 
+    margin-left: 60px;
+}
+
+.blog_list{
+    margin-top: 30px;
+    font-size: 0;
+}
+.blog_article{
+    display: inline-block;
+    max-width: 33.3%;
+    padding: 0 10px;
+    vertical-align: top;
+}
+.third_title{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.blog_article p{
+    font-size: initial;
+}
+.container p{
+    line-height: 24px;
+}
+section:nth-child(3){
+    max-width: 500px;
+    margin: 0 auto;
+}
+.social_network{
+    margin-bottom: 20px;   
+}
+.network{
+    width: 300px;
+    height: 40px;
+}
+footer {
+    background-color: black;
+}
+
+.footer_logo{
+    width: 90px;
+    height: 50px; 
+    margin: 20px 0; 
+}
+
+footer .container{
+    position: relative;
+}
+
+.copyright{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 130px;
+    transform: translateY(-50%);
+}
+
+.footer_menu{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
